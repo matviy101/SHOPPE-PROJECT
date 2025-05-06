@@ -1,0 +1,36 @@
+// MAIN SECTION
+
+
+
+.main {
+    background-image: url("/SHOPPE-PROJECT/IMGS/backgroundimg.jpg");
+
+    &__heading {
+        font-size: 33px;
+        font-weight: 500px;
+        color: $background;
+    }
+
+    &__price {
+        font-size: 26px;
+        font-weight: 400px;
+        color: $background;
+    }
+
+    &__view-product {
+        background-color: transparent;
+        color: white;
+        border: white solid 2px;
+        width: 193px;
+        height: 53px;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+        &:hover {
+            background-color: #a18a6800;
+        }
+    }
+    &__view-product-text {
+        font-size: 30px;
+    }
+}

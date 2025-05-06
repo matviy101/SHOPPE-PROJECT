@@ -1,0 +1,11 @@
+@import "UTILS/colors";
+@import "UTILS/mixins";
+@import "COMPONENTS/header";
+@import "COMPONENTS/main";
+@import "COMPONENTS/shop";
+
+
+body {
+    background-color: $background;
+    font-family: "DM sans", sans-serif;
+}

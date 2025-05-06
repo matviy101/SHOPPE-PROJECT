@@ -1,0 +1,29 @@
+.shop {
+    margin-top: 140px;
+    &__image {
+        width: 377px;
+        height: 380px;
+        border-radius: 8px;
+        cursor: pointer;
+        &:hover {
+            
+        }
+    }
+    &__group {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__group-2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    &__header {
+        font-size: 33px;
+    }
+    &__main {
+        display: flex;
+        justify-content: space-between;
+    }
+}
