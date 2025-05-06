@@ -36,7 +36,8 @@
 }
 
 .main {
-  background-image: url("/SHOPPE-PROJECT/IMGS/backgroundimg.jpg");
+  background-image: url("../IMGS/backgroundimg.jpg");
+  padding: 220px 0;
 }
 .main__heading {
   font-size: 33px;
