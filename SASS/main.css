@@ -34,6 +34,16 @@
 .header__logos:hover {
   color: #A18A68;
 }
+@media (max-width: 790px) {
+  .header > * {
+    display: none;
+  }
+  .header__shoppe {
+    display: block !important;
+    width: 99px;
+    height: 36px;
+  }
+}
 
 .main {
   background-image: url("../IMGS/backgroundimg.jpg");
