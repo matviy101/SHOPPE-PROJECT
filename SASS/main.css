@@ -68,7 +68,7 @@
     padding: 20px 60px;
     z-index: 998;
   }
-  .header__search {
+  .header__search-input {
     display: flex;
     align-items: center;
     background-color: #f0f0f0;
