@@ -30,6 +30,7 @@
     align-items: center;
     margin-right: 20px;
     border-bottom: 1px solid #ccc;
+
     input {
       border: none;
       background: transparent;
@@ -60,5 +61,12 @@
 
   &__svg {
     cursor: pointer;
+  }
+}
+
+@media (min-width: 780px) {
+  .footer {
+    margin-top: 250px;
+
   }
 }
